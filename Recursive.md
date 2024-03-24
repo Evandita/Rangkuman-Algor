@@ -66,13 +66,13 @@ Menggunakan kasus sebagai berikut:
 
 #### Kasus 1
 
-Syarat:
+- Syarat:
 
 $$
 f(n) < n^{^{b}log(a)}
 $$
 
-maka, 
+- maka, 
 
 $$
 f(n) = O( n^{^{b}log(a)-\epsilon}),\epsilon > 0
@@ -85,13 +85,13 @@ $$
 
 #### Kasus 2
 
-Syarat:
+- Syarat:
 
 $$
 f(n) = n^{^{b}log(a)}
 $$
 
-maka,
+- maka,
 
 $$
 T(n) = \theta ( n^{^{b}log(a)} lg(n))
@@ -99,13 +99,13 @@ $$
 
 #### Kasus 3
 
-Syarat:
+- Syarat:
 
 $$
 f(n) > n^{^{b}log(a)}
 $$
 
-maka,
+- maka,
 
 $$
 f(n) = \Omega( n^{^{b}log(a)+\epsilon}),\epsilon > 0
@@ -115,7 +115,7 @@ $$
 T(n) = \theta(f(n))
 $$
 
-Untuk `c < 1` dan `n besar`, dapat dibuktikan
+- Untuk `c < 1` dan `n besar`, dapat dibuktikan
 
 $$
 af(\frac{n}{b}) \le cf(n)
