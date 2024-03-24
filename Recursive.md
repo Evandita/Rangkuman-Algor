@@ -75,7 +75,7 @@ $$
 maka, 
 
 $$
-f(n) = O( n^{^{b}log(a-\epsilon)}),\epsilon > 0
+f(n) = O( n^{^{b}log(a)-\epsilon}),\epsilon > 0
 $$
 
 $$
@@ -108,7 +108,7 @@ $$
 maka,
 
 $$
-f(n) = \Omega( n^{^{b}log(a+\epsilon)}),\epsilon > 0
+f(n) = \Omega( n^{^{b}log(a)+\epsilon}),\epsilon > 0
 $$
 
 $$
