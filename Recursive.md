@@ -43,7 +43,7 @@ T(n/b^0) = T(n)           | a^0       | f(n)                     | f(n)
 T(n/b^1)                  | a^1       | f(n/b) ... f(n/b)        | a f(n/b)
 T(n/b^2)                  | a^2       | f(n/b^2) ... f(n/b^2)    | a^2 f(n/b^2)
 ...                       | ...       | ...                      | ...
-T(n/b^(b log n)) = T(1)   | a^b log n | c ... c                  | a^(b log n) c
+T(n/b^(b log n)) = T(1)   | a^b log n | f(1) ... f(1)            | a^(b log n) c
 
 - Temukan nilai T(n) menggunakan rumus berikut
 
