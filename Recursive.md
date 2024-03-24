@@ -72,7 +72,7 @@ $$
 f(n) < n^{^{b}log(a)}
 $$
 
-- maka, 
+maka, 
 
 $$
 f(n) = O( n^{^{b}log(a)-\epsilon}),\epsilon > 0
@@ -91,7 +91,7 @@ $$
 f(n) = n^{^{b}log(a)}
 $$
 
-- maka,
+maka,
 
 $$
 T(n) = \theta ( n^{^{b}log(a)} lg(n))
@@ -105,7 +105,7 @@ $$
 f(n) > n^{^{b}log(a)}
 $$
 
-- maka,
+maka,
 
 $$
 f(n) = \Omega( n^{^{b}log(a)+\epsilon}),\epsilon > 0
