@@ -114,3 +114,9 @@ $$
 $$
 T(n) = \theta(f(n))
 $$
+
+Untuk `c < 1` dan `n besar`, dapat dibuktikan
+
+$$
+af(\frac{n}{b}) \le cf(n)
+$$
